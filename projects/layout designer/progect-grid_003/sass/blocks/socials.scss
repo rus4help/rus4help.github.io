@@ -1,0 +1,63 @@
+.socials {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.socials__element {
+  margin: 0 6px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+}
+
+.socials__facebook {
+  width: 10px;
+  height: 22px;
+  fill: $second;
+}
+
+.socials__facebook-mini {
+  width: 6px;
+  height: 13px;
+  fill: $red;
+}
+
+.socials__twitter {
+  width: 26px;
+  height: 21px;
+  fill: $second;
+}
+
+.socials__twitter-mini {
+  width: 13px;
+  height: 10px;
+  fill: $red;
+}
+
+.socials__linkedin {
+  width: 24px;
+  height: 23px;
+  fill: $second;
+}
+
+.socials__linkedin-mini {
+  width: 13px;
+  height: 12px;
+  fill: $red;
+}
+
+.socials__google {
+  width: 19px;
+  height: 19px;
+  fill: $second;
+}
+
+.socials__google-mini {
+  width: 14px;
+  height: 13px;
+  fill: $red;
+}

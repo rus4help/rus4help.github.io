@@ -1,0 +1,27 @@
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links__link {
+  font-size: 13px;
+  color: $white;
+  text-transform: uppercase;
+  line-height: 1.077;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding-left: 25px;
+  transition-property: color;
+  transition-duration: 500ms;
+
+  @media (min-width: 1500px) {
+    @include dynamicText(81.25%, 26, 13, 1500px, 3000, 1500);
+  }
+
+  &:hover {
+    color: $black;
+    background: url('/img/arrow.svg') left center no-repeat;
+  }
+
+}
