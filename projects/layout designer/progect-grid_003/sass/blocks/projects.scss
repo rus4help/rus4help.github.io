@@ -52,13 +52,13 @@ $bgNine: #cecece;
 }
 
 .projects__element--two {
-  background: url('/img/image2.png') right top no-repeat $white;
+  background: url('../img/image2.png') right top no-repeat $white;
   background-size: cover;
   grid-column: span 6;
   grid-row: span 2;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image2-2x.png');
+    background-image: url('../img/image2-2x.png');
   }
 
   .projects__info {
@@ -75,13 +75,13 @@ $bgNine: #cecece;
 }
 
 .projects__element--three {
-  background: url('/img/image3.png') left center no-repeat $bgThree;
+  background: url('../img/image3.png') left center no-repeat $bgThree;
   background-size: cover;
   grid-column: span 5;
   grid-row: span 1;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image3-2x.png');
+    background-image: url('../img/image3-2x.png');
   }
 
   .projects__like {
@@ -107,7 +107,7 @@ $bgNine: #cecece;
 }
 
 .projects__element--four {
-  background: url('/img/image4.png') center top no-repeat $bgFour;
+  background: url('../img/image4.png') center top no-repeat $bgFour;
   background-size: 100%;
   grid-column: span 5;
   grid-row: span 2;
@@ -115,7 +115,7 @@ $bgNine: #cecece;
   display: flex;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image4-2x.png');
+    background-image: url('../img/image4-2x.png');
   }
 
   .projects__counter {
@@ -139,13 +139,13 @@ $bgNine: #cecece;
 }
 
 .projects__element--five {
-  background: url('/img/image5.png') center top no-repeat;
+  background: url('../img/image5.png') center top no-repeat;
   background-size: cover;
   grid-column: span 3;
   grid-row: span 2;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image5-2x.png');
+    background-image: url('../img/image5-2x.png');
   }
 
   .projects__info {
@@ -195,14 +195,14 @@ $bgNine: #cecece;
 }
 
 .projects__element--six {
-  background: url('/img/image6.png') center top no-repeat $bgSix;
+  background: url('../img/image6.png') center top no-repeat $bgSix;
   background-size: cover;
   grid-column: span 8;
   grid-row: span 2;
   display: flex;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image6-2x.png');
+    background-image: url('../img/image6-2x.png');
   }
 
   .projects__info {
@@ -224,13 +224,13 @@ $bgNine: #cecece;
 }
 
 .projects__element--seven {
-  background: url('/img/image7.png') left top no-repeat $white;
+  background: url('../img/image7.png') left top no-repeat $white;
   background-size: 100%;
   grid-column: span 5;
   grid-row: span 1;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image7-2x.png');
+    background-image: url('../img/image7-2x.png');
   }
 
   .projects__info {
@@ -251,7 +251,7 @@ $bgNine: #cecece;
 }
 
 .projects__element--eight {
-  background: url('/img/image8.png') left top no-repeat $bgEight;
+  background: url('../img/image8.png') left top no-repeat $bgEight;
   background-size: 100%;
   grid-column: span 8;
   grid-row: span 1;
@@ -259,7 +259,7 @@ $bgNine: #cecece;
   padding-top: 27.2%;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image8-2x.png');
+    background-image: url('../img/image8-2x.png');
   }
 
   .projects__info {
@@ -284,13 +284,13 @@ $bgNine: #cecece;
 }
 
 .projects__element--nine {
-  background: url('/img/image9.png') left top no-repeat $bgNine;
+  background: url('../img/image9.png') left top no-repeat $bgNine;
   background-size: 100%;
   grid-column: span 3;
   grid-row: span 1;
 
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image9-2x.png');
+    background-image: url('../img/image9-2x.png');
   }
 
   .projects__info {
@@ -397,7 +397,7 @@ $bgNine: #cecece;
   text-transform: uppercase;
   line-height: 1;
   display: inline-block;
-  background: url('/img/arrow-view.svg') left center no-repeat;
+  background: url('../img/arrow-view.svg') left center no-repeat;
   padding-left: 25px;
   padding-right: 25px;
   text-decoration: none;
