@@ -8,11 +8,11 @@
   padding-left: 15.9%;
   padding-top: 4.8%;
   padding-bottom: 8.7%;
-  background: url('/img/image1.png') 100% center no-repeat;
+  background: url('../img/image1.png') 100% center no-repeat;
   background-size: 100%;
   
   @media (min-resolution: 2dppx), (min-width: 1500px) {
-    background-image: url('/img/image1-2x.png');
+    background-image: url('../img/image1-2x.png');
   }
   
 }
