@@ -1,0 +1,29 @@
+/**
+ * Основные стили
+ **/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+.display-none {
+	display: none;
+}
+
+.container {
+	@include min-max(320px, 100%, 0);
+}
+
+.wrap {
+	@include min-max(320px, 1408px, 0);
+}
+
+.price__units {
+	@include min-max(320px, 1168px, 0);
+}
+
+.notice__wrap {
+	@include min-max(320px, 1150px, 0);		
+}

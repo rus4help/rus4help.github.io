@@ -1,0 +1,27 @@
+.phone {
+
+	a {
+		font-size: 22px;
+		font-weight: 900;
+		text-decoration: none;
+		color: #333333;
+	}
+
+	button {
+		margin-top: 15px;
+		padding: 15px 30px;
+		font-size: 14px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #fff;
+		background-color: #336699;
+		border: none;
+		cursor: pointer;
+
+		&:hover {
+	      background-color: #335199;
+	      transition: .75s;
+	    }
+	}
+}

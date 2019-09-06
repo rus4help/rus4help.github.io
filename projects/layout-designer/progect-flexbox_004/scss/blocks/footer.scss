@@ -1,0 +1,18 @@
+.footer {
+
+	background-color: #1d242a;
+
+	.footer__wrap {
+		display: flex;
+		justify-content: space-between;
+		padding: 25px 0;
+		color: rgba(255, 255, 255, 0.21);
+	}
+}
+
+@media (max-width: 992px) {
+
+  .footer .footer__wrap {
+		padding: 25px 15px;
+	}
+}

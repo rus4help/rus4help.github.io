@@ -1,0 +1,51 @@
+.banner {
+	height: 541px;
+	background: url(../img/banner-bg.png) no-repeat center;
+
+	.banner__wrap {
+		position: relative;
+	}
+
+	.banner__text {
+		position: absolute;
+		left: 125px;
+		top: 170px;
+		max-width: 625px;
+		z-index: 10;
+	}
+
+	p {
+		font-size: 36px;
+		color: #fff;
+	}
+
+	p:first-child {
+		font-size: 64px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: 700;
+		box-shadow: inset 0px -11px 0px 0px rgba(40,133,204,1);
+	  	display: inline;
+	}
+
+	p:last-child {
+		margin-top: 60px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.banner .banner__text {
+	    left: 75px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.banner p:first-child {
+	    font-size: 50px;
+	}
+
+	.banner p {
+	    font-size: 29px;
+	}
+}
