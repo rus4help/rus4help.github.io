@@ -42,3 +42,36 @@
         }
     }
 }
+
+@media (max-width: 710px) {
+
+    .footer {
+        .menu {
+        flex-direction: column;
+
+            .menu__ul {
+                margin: 20px 0;
+            }
+        }
+    }
+    
+}
+
+.footer-credit {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    padding: 15px;
+
+
+    p {
+        text-align: center;
+        color: #848484;
+
+        a {
+            text-decoration: none;
+            color: #424242;
+        }
+    }
+
+}
