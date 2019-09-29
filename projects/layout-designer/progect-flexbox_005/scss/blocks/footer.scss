@@ -5,6 +5,8 @@
         padding: 20px 10px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
 
         .menu__ul {
             display: flex;
@@ -22,6 +24,12 @@
         p {
             color: #848484;
             font-weight: 700;
+        }
+    }
+
+    .social {
+        img {
+            width: 50px;
         }
     }
 }
