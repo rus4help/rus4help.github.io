@@ -1,0 +1,27 @@
+.footer {
+
+    .menu {
+        background-color: #f7f7f7;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-between;
+
+        .menu__ul {
+            display: flex;
+            justify-content: center;
+
+            .menu__link {
+                text-decoration: none;
+                color: #848484;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .logo {
+        p {
+            color: #848484;
+            font-weight: 700;
+        }
+    }
+}
