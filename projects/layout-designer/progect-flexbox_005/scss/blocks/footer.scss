@@ -1,5 +1,7 @@
 .footer {
 
+    margin-top: 20px;
+
     .menu {
         background-color: #f7f7f7;
         padding: 20px 10px;
@@ -16,6 +18,15 @@
                 text-decoration: none;
                 color: #848484;
                 margin-left: 20px;
+
+                &:hover {
+                    color: #424242;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    transition: 0.5s;
+}
             }
         }
     }
