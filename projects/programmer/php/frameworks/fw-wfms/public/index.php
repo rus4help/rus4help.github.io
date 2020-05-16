@@ -1,3 +1,3 @@
 <?php
 
-echo __FILE__;
+$query = $_SERVER['QUERY_STRING'];
