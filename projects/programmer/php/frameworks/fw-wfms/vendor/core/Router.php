@@ -21,4 +21,9 @@ class Router
         return self::$route;
     }
 
+    public static function matchRoute($url)
+    {
+        
+    }
+
 }
