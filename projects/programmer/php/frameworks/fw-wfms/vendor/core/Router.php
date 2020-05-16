@@ -32,4 +32,13 @@ class Router
         }
     }
 
+    // public static function matchRoute($url)
+    // {
+    //     if (isset(self::$routes[$url])) {
+    //         self::$route = self::$routes[$url];
+    //         return true;
+    //     }
+    //     return false;
+    // }
+
 }
