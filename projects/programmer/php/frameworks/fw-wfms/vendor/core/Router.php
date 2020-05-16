@@ -5,7 +5,7 @@ class Router
 
     public function __construct()
     {
-        echo 'Hello, world';
+        echo 'Hello, world'
     }
 
 }
