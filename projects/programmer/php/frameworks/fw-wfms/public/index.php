@@ -10,3 +10,9 @@ Router::add('posts/', ['controller' => 'Posts', 'action' => 'index']);
 Router::add('', ['controller' => 'Main', 'action' => 'index']);
 
 debug(Router::getRoutes());
+
+if(Router::matchRoute($query)) {
+    debug(Router::getRoute());
+}else {
+    echo '404';
+}
