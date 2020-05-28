@@ -41,7 +41,12 @@
         } else if(guess.length !== 1) {
             alert("Пожалуйста, введите только одну букву.");
         } else {
-            // Обновляем состояние игры
+            for(var j = 0; j < word.length; j++) {
+                if(word[j] === guess) {
+                    answerArray[j] = guess;
+                    remainingLetters--;
+                }
+            }
         }
 
     }
