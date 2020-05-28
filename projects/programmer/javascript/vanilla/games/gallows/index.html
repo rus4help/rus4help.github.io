@@ -38,7 +38,8 @@
 
         alert(answerArray.join(" "));
 
-        var guess = prompt("Угадай букву или нажми Отмена  для выхода из игры.");
+        var guess = prompt("Угадай букву или нажми Отмена  для выхода из игры.").toLocaleLowerCase();
+
         if(guess === null) {
             break;
         } else if(guess.length !== 1) {
