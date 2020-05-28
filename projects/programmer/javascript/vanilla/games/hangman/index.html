@@ -37,8 +37,8 @@
 
     while(remainingLetters > 0 && countAttempt > 0) {
 
-        alert(answerArray.join(" "));
         alert("У вас осталось " + countAttempt + " попыток");
+        alert(answerArray.join(" "));
 
         var guess = prompt("Угадай букву или нажми Отмена  для выхода из игры.").toLocaleLowerCase();
 
@@ -51,8 +51,6 @@
                 if(word[j] === guess) {
                     answerArray[j] = guess;
                     remainingLetters--;
-                } else {
-                    countAttempt--;
                 }
             }
         }
