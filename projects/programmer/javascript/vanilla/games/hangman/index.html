@@ -16,13 +16,13 @@
 <script>
 
     var words = [
-        "мама",
-        "папа",
+        // "мама",
+        // "папа",
         "сын",
-        "брат",
-        "сестра",
-        "бабушка",
-        "дедушка"
+        // "брат",
+        // "сестра",
+        // "бабушка",
+        // "дедушка"
     ];
 
     var word = words[Math.floor(Math.random() * words.length)];
@@ -55,6 +55,9 @@
                     answerArray[j] = guess;
                     remainingLetters--;
                     alert("Вы угадали букву!");
+                } else if(answerArray[j] === guess) {
+                    countAttempt++;
+                    alert("Вы уже вводили эту букву. Будьте внимательны!")
                 }
             }
         }
